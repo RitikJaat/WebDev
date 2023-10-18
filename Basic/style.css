@@ -1,0 +1,42 @@
+body {
+    background-color: whitesmoke;
+}
+
+section {
+    background-color: blueviolet;
+}
+
+ul {
+    list-style-type: square;
+}
+body{
+    background-color: darkgray;
+}
+
+div{
+    background-color: rgb(116, 108, 108);
+    color: rgb(236, 224, 238);
+}
+
+legend {
+    color: rgb(196, 22, 22);
+}
+.firstp{
+ background-color: aqua;   
+}
+.secondp{
+    background-color: pink;
+}
+pre{
+    background-color: blueviolet;
+}
+.order{
+    background-color: brown;
+}
+.unorder{
+    background-color: chartreuse;
+}
+a:hover{
+    color: yellow;
+    text-decoration: none;
+}
