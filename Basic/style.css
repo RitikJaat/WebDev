@@ -1,5 +1,16 @@
+*{
+    box-sizing: border-box;
+}
 body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 15px 30px;
+    font-size: 17px;
+    padding: 8px;
     background-color: whitesmoke;
+}
+
+fieldset{
+    background-color: rgb(97, 197, 197);
 }
 
 section {
@@ -15,6 +26,8 @@ body{
 
 div{
     background-color: rgb(116, 108, 108);
+    text-align: center;
+    border-radius: 4px;
     color: rgb(236, 224, 238);
 }
 
