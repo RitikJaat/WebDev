@@ -1,12 +1,19 @@
 *{
     box-sizing: border-box;
 }
+header{
+    text-align: center;
+    background-color: yellow;
+}
 body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     margin: 15px 30px;
     font-size: 17px;
     padding: 8px;
     background-color: whitesmoke;
+}
+#box{
+    float: right;
 }
 
 fieldset{
