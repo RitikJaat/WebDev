@@ -1,11 +1,13 @@
-*{
+* {
     box-sizing: border-box;
 }
-header{
+
+header {
     text-align: center;
     background-color: yellow;
     border-radius: 25px;
 }
+
 body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     margin: 15px 30px;
@@ -13,16 +15,17 @@ body {
     padding: 8px;
     background-color: whitesmoke;
 }
-#box{
+
+#box {
     float: right;
 }
 
-nav{
-    background-color:yellowgreen;
-    
+nav {
+    background-color: yellowgreen;
+
 }
 
-fieldset{
+fieldset {
     background-color: rgb(197, 224, 224);
 }
 
@@ -33,11 +36,12 @@ section {
 ul {
     list-style-type: square;
 }
-body{
+
+body {
     background-color: rgb(245, 236, 236);
 }
 
-div{
+div {
     background-color: rgb(143, 168, 51);
     text-align: center;
     border-radius: 25px;
@@ -53,29 +57,36 @@ legend {
     border-radius: 25px;
 
 }
-img{
+
+img {
     border-radius: 25px;
 }
-.firstp{
- background-color: aqua;
+
+.firstp {
+    background-color: aqua;
 }
-.secondp{
+
+.secondp {
     background-color: pink;
 }
-pre{
+
+pre {
     background-color: blueviolet;
     border-radius: 25px;
     padding: 10px;
 }
-.order{
+
+.order {
     background-color: brown;
     border-radius: 25px;
 }
-.unorder{
+
+.unorder {
     background-color: chartreuse;
     border-radius: 25px;
 }
-a:hover{
+
+a:hover {
     color: rgb(36, 211, 103);
     text-decoration: none;
 }
