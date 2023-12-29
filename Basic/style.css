@@ -20,10 +20,7 @@ body {
     float: right;
 }
 
-nav {
-    background-color: yellowgreen;
 
-}
 
 fieldset {
     background-color: rgb(197, 224, 224);
@@ -39,14 +36,6 @@ ul {
 
 body {
     background-color: rgb(245, 236, 236);
-}
-
-div {
-    background-color: rgb(143, 168, 51);
-    text-align: center;
-    border-radius: 25px;
-    color: rgb(236, 224, 238);
-    padding: 1px;
 }
 
 legend {
