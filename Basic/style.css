@@ -13,7 +13,7 @@ body {
     margin: 15px 30px;
     font-size: 17px;
     padding: 8px;
-    background-color: whitesmoke;
+    background-color: burlywood;
 }
 
 #box {
@@ -36,9 +36,6 @@ ul {
     list-style-type: square;
 }
 
-body {
-    background-color: rgb(245, 236, 236);
-}
 
 legend {
     text-align: center;
