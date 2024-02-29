@@ -23,7 +23,7 @@ body {
     float: inline-start;
 }
 
-.heading{
+.heading {
     padding: 4em;
     text-align: center;
 }
@@ -54,7 +54,7 @@ body {
     }
 }
 
-button{
+button {
     border-radius: 25px;
     border-color: #fff;
     /* border: none; */
@@ -84,7 +84,9 @@ a:hover {
 }
 
 .youtube {
-    padding: px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     float: inline-start;
     border-block-end-style: groove;
     writing-mode: horizontal-tb;
