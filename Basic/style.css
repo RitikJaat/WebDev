@@ -2,6 +2,21 @@
     box-sizing: border-box;
 }
 
+@media only screen and (max-width=455px) {
+
+    body {
+        display: flex;
+    }
+
+    .box {
+        display: flex;
+    }
+
+    feildset {
+        display: flex;
+    }
+}
+
 header {
     text-align: center;
     background-color: yellow;
@@ -46,7 +61,8 @@ legend {
     border-radius: 25px;
 
 }
-.fper{
+
+.fper {
     margin: 25px;
 }
 
@@ -55,14 +71,14 @@ img {
     border: 5px solid rgb(49, 102, 218);
 }
 
-.box{
+.box {
     float: right;
     margin: 5px;
 }
 
 .firstp {
     background-color: aqua;
-    
+
 }
 
 .secondp {
