@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Teko:wght@300..700&display=swap');
+
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        :root {
+            --primary-color: #1f2a4e;
+            --secondary-color: #ada2af;
+            --third-color: #d6d1d7;
+            --selector-color: #da0a0b;
+            --white: #fefefe;
+        }
+
+        body {
+            background-color: var(--secondary-color);
+        }
+
+        textarea {
+            background-color: var(--third-color);
+            border-radius: 25px;
+            resize: none;
+        }
+
+        legend {
+            padding: 8px 27px;
+            background-color: var(--primary-color);
+            border-radius: 25px;
+            color: var(--white);
+        }
+
+        fieldset {
+            font-family: "Teko", sans-serif;
+            font-size: 25px;
+            margin-top: 5vh;
+            margin-left: 27vw;
+            border-radius: 20px;
+            width: 40%;
+            text-align: center;
+            padding: 10px 40px 10px 40px;
+        }
+        input{
+            border-radius: 20px;
+            border: 2px solid var(--secondary-color);
+            padding: 3px 15px;
+            background-color: var(--third-color);
+            color: var(--secondary-color);
+        }
+        input:hover{
+            color: var(--selector-color);
+        }
+        .box{
+            background-color: var(--third-color);
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul><a href="/AsurEsports/home.html" draggable="false">Home</a></ul>
+            <ul><a href="\" draggable="false">About</a></ul>
+            <ul><a href="\" draggable="false">Players</a></ul>
+            <ul><a href="/AsurEsports/contact.html" draggable="false">Contact</a></ul>
+        </nav>
+    </header>
+
+    <form action="">
+
+        <fieldset class="box">
+            <legend>Contact Us</legend>
+            Name : <textarea name="name" id="name" cols="30" rows="1" placeholder=" Enter your name"></textarea><br>
+            Email : <textarea name="email" id="email" cols="30" rows="1" placeholder=" youremail@gmail.com"></textarea><br>
+            Phone : <textarea name="phone" id="phone" cols="30" rows="1" placeholder=" 987654321"></textarea><br>
+            <input type="submit" value="submit">
+        </fieldset>
+    </form>
+        
+</body>
+
+
+
+</html>

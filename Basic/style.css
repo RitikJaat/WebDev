@@ -35,6 +35,22 @@ body {
     float: right;
 }
 
+input {
+    resize: none;
+    border-radius: 25px;
+    padding: 0px 7px;
+}
+
+#about{
+    resize: none;
+    border-radius: 25px;
+    padding: 0px 9px;
+}
+#p2about{
+    resize: none;
+    border-radius: 25px;
+    padding: 0px 9px;
+}
 
 
 fieldset {
