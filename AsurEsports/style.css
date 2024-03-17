@@ -40,48 +40,6 @@ ul {
     padding: 20px 60px;
 }
 
-.buttons {
-    padding: 0 25px 0 45vw;
-
-}
-
-.buttons span {
-
-    border: 2px solid var(--primary-color);
-    border-radius: 20px;
-    padding: 2px 8px;
-}
-
-.span:hover {
-    color: var(--selector-color);
-}
-
-.moto {
-    --third-color: #a60dc5;
-    padding: 12px 20px;
-    margin: 20px;
-    color: var(--white);
-    border: 3px solid var(--selector-color);
-    background-color: var(--third-color);
-    border-radius: 20px;
-    text-align: center;
-    font-size: 45px;
-}
-
-.moto::selection {
-    background-color: var(--primary-color);
-    color: var(--selector-color)
-}
-
-.support {
-    position: fixed;
-    bottom: 20px;
-    right: 25px;
-    padding: 1px 5px;
-    border: 2px solid var(--primary-color);
-    border-radius: 50px;
-}
-
 a:hover {
     color: var(--selector-color)
 }

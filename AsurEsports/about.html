@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .buttons {
+            padding: 0 25px 0 45vw;
+
+        }
+
+        .buttons span {
+
+            border: 2px solid var(--primary-color);
+            border-radius: 20px;
+            padding: 2px 8px;
+        }
+
+        span:hover {
+            color: var(--selector-color);
+        }
+
+        .moto {
+            --third-color: #a60dc5;
+            padding: 12px 20px;
+            margin: 20px;
+            color: var(--white);
+            border: 3px solid var(--selector-color);
+            background-color: var(--third-color);
+            border-radius: 20px;
+            text-align: center;
+            font-size: 45px;
+        }
+
+        .moto::selection {
+            background-color: var(--primary-color);
+            color: var(--selector-color)
+        }
+
+        .support {
+            position: fixed;
+            bottom: 20px;
+            right: 25px;
+            padding: 1px 5px;
+            border: 2px solid var(--primary-color);
+            border-radius: 50px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul><a href="/AsurEsports/home.html" draggable="false">Home</a></ul>
+            <ul><a href="/AsurEsports/about.html" draggable="false">About</a></ul>
+            <ul><a href="/AsurEsports/players.html" draggable="false">Players</a></ul>
+            <ul><a href="/AsurEsports/contact.html" draggable="false">Contact</a></ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="moto">
+            Fueling victories in the digital arena<br>
+            Elevating excellence with passion and precision<br>
+            Where skill meets strategy, we dominate the game 🔥
+        </div>
+
+        <div class="support">
+            <a href="\"><img src="/AsurEsports/Res/material-icons/support_agent.svg" alt="support"></a>
+        </div>
+
+    </main>
+    <footer>
+        <div class="buttons">
+            <span><a href="https://www.instagram.com/asuresport/" target="_blank">Instagram</a></span>
+            <span><a href="https://www.youtube.com/@asuresport" target="_blank">YouTube</a></span>
+        </div>
+    </footer>
+</body>
+
+</html>
