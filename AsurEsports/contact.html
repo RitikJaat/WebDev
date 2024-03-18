@@ -25,6 +25,9 @@
 
         body {
             background-color: var(--secondary-color);
+            -webkit-user-select: none;
+            -ms-user-select: none;
+            user-select: none;
         }
 
         textarea {
@@ -50,17 +53,20 @@
             text-align: center;
             padding: 10px 40px 10px 40px;
         }
-        input{
+
+        input {
             border-radius: 20px;
             border: 2px solid var(--secondary-color);
             padding: 3px 15px;
             background-color: var(--third-color);
             color: var(--secondary-color);
         }
-        input:hover{
+
+        input:hover {
             color: var(--selector-color);
         }
-        .box{
+
+        .box {
             background-color: var(--third-color);
         }
     </style>
@@ -80,13 +86,16 @@
 
         <fieldset class="box">
             <legend>Contact Us</legend>
-            Name : <textarea name="name" id="name" cols="30" rows="1" placeholder=" Enter your name" required></textarea><br>
-            Email : <textarea name="email" id="email" cols="30" rows="1" placeholder=" youremail@gmail.com" required></textarea><br>
-            Phone : <textarea name="phone" id="phone" cols="30" rows="1" placeholder=" 987654321" required></textarea><br>
+            Name : <textarea name="name" id="name" cols="30" rows="1" placeholder=" Enter your name"
+                required></textarea><br>
+            Email : <textarea name="email" id="email" cols="30" rows="1" placeholder=" youremail@gmail.com"
+                required></textarea><br>
+            Phone : <textarea name="phone" id="phone" cols="30" rows="1" placeholder=" 987654321"
+                required></textarea><br>
             <input type="submit" value="submit">
         </fieldset>
     </form>
-        
+
 </body>
 
 
