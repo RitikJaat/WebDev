@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document Title</title>
+    <style>
+        body{
+            background-color: rgba(0, 0, 0, 0.486);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .card {
+            display: flex;
+            margin: 5px;
+            border: 1px solid black;
+            border-radius: 5px;
+            width: 650px;
+            padding: 1px 1px;
+            justify-content: center;
+            align-items: center;
+            background-color: rgba(18, 20, 16, 0.582);
+        }
+
+        .image img {
+            width: 200px;
+        }
+
+        .image {
+            position: relative;
+        }
+
+        .text h1,
+        p {
+            padding: 10px 5px;
+        }
+
+        .image .capsule {
+            position: absolute;
+            bottom: 0;
+            right: 0;
+            z-index: 10;
+            background-color: rgba(0, 0, 0, 0.768);
+            color: white;
+            padding: 3px;
+            border-radius: 5px;
+            font-size: 14px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="card">
+            <div class="image" draggable="false">
+                <img src="https://i.scdn.co/image/ab67616d00001e02e8274ea22d88d3ba1adaa948" alt="kamlee"
+                    draggable="false">
+                <div class="capsule">3:24</div>
+            </div>
+            <div class="text">
+                <h1>Kamlee - nbse Sarrb and Starboy X</h1>
+                <p>132,027 listens</p>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
