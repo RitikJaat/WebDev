@@ -1,0 +1,53 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgba(255, 228, 196, 0.603);
+}
+
+.container {
+    border: 2px solid black;
+    border-radius: 25px;
+    width: 40vw;
+    height: auto;
+    margin-top: 10px;
+    overflow: hidden;
+    background-image: url(https://img.freepik.com/free-photo/white-paper-texture_1194-5416.jpg?w=740&t=st=1712901589~exp=1712902189~hmac=4c9b3b7dbba2582a4f01458064466ebbfb92cacb05acbbd21884748b335d4cbd);
+    fill: auto;
+    padding: 15px;
+}
+
+.buttons {
+    margin: 5px;
+}
+
+#addnote {
+    background-color: rgba(255, 255, 0, 0.445);
+    border-radius: 25px;
+    border-style: none;
+}
+
+#addnote:hover {
+    transition: 100ms;
+    background-color: rgba(255, 255, 0, 0.575);
+    border-radius: 25px;
+    border-color: red;
+    border-style: double;
+}
+
+#getnote {
+    background-color: rgba(255, 255, 0, 0.445);
+    border-radius: 25px;
+    border-style: none;
+}
+
+#getnote:hover {
+    transition: 100ms;
+    background-color: rgba(255, 255, 0, 0.575);
+    border-radius: 25px;
+    border-color: red;
+    border-style: double;
+}
