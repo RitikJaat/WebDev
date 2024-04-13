@@ -1,0 +1,48 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: "Chakra Petch", sans-serif;    
+}
+
+.logo img {
+    width: 67px;
+}
+
+.bg-black {
+    background-color: var(--dblue);
+    color: var(--text-color);
+}
+
+.bg-lblack {
+    background-color: var(--bg-color);
+    border-radius: 23px;
+}
+
+.left {
+    width: 25vw;
+    padding: 20px;
+}
+
+.right {
+    width: 75vw;
+}
+
+.home ul li {
+    display: flex;
+    gap: 7px;
+    width: 18px;
+    list-style: none;
+    padding-top: 15px;
+}
+
+.heading{
+    display: flex;
+    gap: 7px;
+    width: 100%;
+    padding-top: 15px;
+    align-items: center;
+}
+
+.heading img{
+    width: 18px;
+}
