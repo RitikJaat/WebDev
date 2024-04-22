@@ -3,7 +3,8 @@
     margin: 0px;
     font-family: "Chakra Petch", sans-serif;
 }
-body{
+
+body {
     background-color: var(--dblue);
 }
 
@@ -79,30 +80,36 @@ body{
     justify-content: space-between;
 }
 
-.cardContainer{
+.cardContainer {
     display: flex;
     gap: 10px;
     flex-wrap: wrap;
     align-items: center;
 }
 
-.mfu{
-    padding:5px;
+.mfu {
+    padding: 5px;
 }
 
-.card{
+.card {
     width: 200px;
     padding: 7px;
     border-radius: 12px;
     background-color: var(--grayblue);
+    min-height: 294px;
 
 }
-
-.card p{
-    font-size: 10px;
+h3{
+    padding-top: 5px;
+    font-family: "Turret Road";
 }
 
-.card img{
+.card p {
+    font-size: 12px;
+    padding-top: 8px;
+}
+
+.card img {
     width: 100%;
     border-radius: 12px;
     object-fit: contain;
